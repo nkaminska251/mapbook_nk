@@ -1,45 +1,6 @@
-# mapbook
-# moje zmiany do mapbook, facebook dla znajomych
+from mapbook_lib.model import users
 
-users = [
-    {"Name": "Artur", "Location": "Łomża",
-     "Posts": ["Sprzedam Mercedessa", "Kupię skrzynie biegów", "ratunku co robić po wypadku"]},
-    {"Name": "Daniel", "Location": "Legionowo", "Posts": ["Mój kod nie działa"]},
-    {"Name": "Kamil", "Location": "ciechanów", "Posts": ["Czy ktoś zrobił sprwozdanie z ppytch"]},
-]
-
-
-def read_users(users_data: list) -> None:
-    for user in users_data:
-        print(f"Twój znajomy {user["Name"]}, z miejscowośći {user["Location"]}, zamieścił post {user["Posts"][-1]}")
-
-
-def add_user(users_data: list) -> None:
-    users_data.append({"Name": input("Podaj imię  "), "Location": input("Twoja Lokalizacja  "),
-                       "Posts": input("Dołączono do znajomych  ")})
-
-
-def remove_user(users_data: list) -> None:
-    user_to_remove = input("Podaj imię znajomego do usunięcia  ")
-    for user in users_data:
-        if user["Name"] == user_to_remove:
-            users_data.remove(user)
-
-
-def update_user(users_data: list) -> None:
-    user_to_update = input("Podaj imię znajomego do updatu  ")
-    for user in users_data:
-        if user["Name"] == user_to_update:
-            user["Name"] = input("Podaj nowe imię użytkownika ")
-            user["Location"] = input("Podaj nową lokalizacje ")
-
-
-def update_user_post(users_data: list) -> None:
-    user_to_update = input("Podaj imię znajomego do updatu  ")
-    for user in users_data:
-        if user["Name"] == user_to_update:
-            user["Posts"].append(input("Co słychać  "))
-
+from mapbook_lib.controler import read_users, add_user, remove_user, update_user, update_user_post
 
 def main():
     while True:
@@ -72,3 +33,6 @@ def main():
         if choice == "5":
             update_user_post(users)
 
+
+if __name__ == "__main__":
+    main()

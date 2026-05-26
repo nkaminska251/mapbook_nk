@@ -1,4 +1,5 @@
 # mapbook
+# moje zmiany do mapbook
 
 users = [
     {"Name": "Artur", "Location": "Łomża",

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d264614-3227-4d81-ae9a-7cc0b7af8401" name="Changes" comment="feat: prepared data structure, implemented CRUD functionalities based on users data">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="3d264614-3227-4d81-ae9a-7cc0b7af8401" name="Changes" comment="feat: prepared data structure, implemented CRUD functionalities based on users data" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779821691875</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: prepared data structure, implemented CRUD functionalities based on users data">
+      <option name="closed" value="true" />
+      <created>1779821829673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779821829673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

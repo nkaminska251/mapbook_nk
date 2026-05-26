@@ -1,5 +1,5 @@
 # mapbook
-# moje zmiany do mapbook
+# moje zmiany do mapbook, facebook dla znajomych
 
 users = [
     {"Name": "Artur", "Location": "Łomża",
@@ -72,5 +72,3 @@ def main():
         if choice == "5":
             update_user_post(users)
 
-if __name__ == "__main__":
-    main()

@@ -210,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779820811249</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: prepared data structure, implemented CRUD functionalities based on users data">
+      <option name="closed" value="true" />
+      <created>1779821691875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779821691875</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
